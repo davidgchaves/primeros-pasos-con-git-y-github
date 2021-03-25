@@ -223,7 +223,7 @@ On branch master
 No commits yet
 
 Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
+  (use "git restore --staged <file>..." to unstage)
 
 	new file:   README.md
 
