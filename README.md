@@ -429,9 +429,9 @@ Your branch is up to date with 'origin/master'.
 nothing to commit, working tree clean
 
 ❯ git log
-013daa3 Update README.md (davidgchaves, 1 year, 1 month ago)
-3572c0b Add intructions for generating ssh keys (David G Chaves, 1 year, 1 month ago)
-3346b9c Add README with instructions (David G Chaves, 1 year, 1 month ago)
-e420514 Add gitconfig file (David G Chaves, 1 year, 1 month ago)
-47cf7cf Initial commit (David G Chaves, 1 year, 1 month ago)
+013daa3 Update README.md (davidgchaves, 2 years, 5 months ago)
+3572c0b Add intructions for generating ssh keys (David G Chaves, 2 years, 5 months ago)
+3346b9c Add README with instructions (David G Chaves, 2 years, 5 months ago)
+e420514 Add gitconfig file (David G Chaves, 2 years, 5 months ago)
+47cf7cf Initial commit (David G Chaves, 2 years, 5 months ago)
 ```
