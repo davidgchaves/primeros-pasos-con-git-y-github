@@ -3,6 +3,21 @@
 
 ## Índice
 
+- [1. Links de interés](#1-links-de-interés)
+  - [1.1 Markdown](#11-markdown)
+  - [1.2 Git y Github](#12-git-y-github)
+- [2. Consideraciones previas](#2-consideraciones-previas)
+- [3. Receta 1: Instalar git en Ubuntu](#3-receta-1-instalar-git-en-ubuntu)
+- [4. Receta 2: Configurar parametros globales de git](#4-receta-2-configurar-parametros-globales-de-git)
+- [5. Receta 3: Generar y añadir claves ssh a Github](#5-receta-3-generar-y-añadir-claves-ssh-a-github)
+  - [5.1 Links](#51-links)
+  - [5.2 Pasos](#52-pasos)
+- [6 Receta 4: Crear un repositorio GitHub y asociarlo al repositorio local](#6-receta-4-crear-un-repositorio-github-y-asociarlo-al-repositorio-local)
+  - [6.1 Crear un repositorio en GitHub](#61-crear-un-repositorio-en-github)
+  - [6.2 Introducir los datos que nos piden](#62-introducir-los-datos-que-nos-piden)
+  - [6.3 Crear una carpeta para el repositorio en la máquina local](#63-crear-una-carpeta-para-el-repositorio-en-la-máquina-local)
+  - [6.4 Crear el repositorio localmente y enviarlo a Github](#64-crear-el-repositorio-localmente-y-enviarlo-a-github)
+- [7 Receta 2: Clonar un repositorio de Github](#7-receta-2-clonar-un-repositorio-de-github)
 
 ## 1. Links de interés
 
