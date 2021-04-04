@@ -357,10 +357,16 @@ Tras añadir el remoto (`remote`), nuestra máquina local **ya sabe** a dónde e
 origin git@github.com:USUARIO/NOMBRE_REPO.git
 ```
 
-Ahora vamos a enviar los datos a Github (`push`) por primera vez
+Ahora vamos a enviar los datos a Github (`push`) por primera vez. Necesitamos crear una rama `main`, antes.
 
 ```sh
-❯ git push -u origin master
+❯ git branch -M main
+```
+
+Ahora sí que podemos enviar a Github.
+
+```
+❯ git push -u origin main
 Enter passphrase for key '/Users/davidgchaves/.ssh/id_rsa':
 Enumerating objects: 6, done.
 Counting objects: 100% (6/6), done.
