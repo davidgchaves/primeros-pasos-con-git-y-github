@@ -375,8 +375,8 @@ Compressing objects: 100% (3/3), done.
 Writing objects: 100% (6/6), 488 bytes | 488.00 KiB/s, done.
 Total 6 (delta 0), reused 0 (delta 0)
 To github.com:davidgchaves/first-steps-with-git-and-github-ies-illa-de-saron.git
- * [new branch]      master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
 ```
 
 👆 Como yo tengo un `passphrase` para mi clave `ssh`, me la pide. En clase **NO** establecimos ningún `passphrase` por comodidad, por lo que no debería pedírosla. Aun así **ES RECOMENDABLE** establecer un `passphrase` para las claves `ssh`.
