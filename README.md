@@ -75,13 +75,14 @@ git version 2.24.3 (Apple Git-128)
 
 > Configurar parametros globales de git tras instalación
 
-Vamos a configurar **nombre**, **email** y **editor**. Es posible configurar más cosas pero con estas 3, por el momento, tenemos suficiente ☄️
+Vamos a configurar **nombre**, **email**, **editor** y **defaultBranch**. Es posible configurar más cosas pero con estas 3, por el momento, tenemos suficiente ☄️
 
 ```
 ❯ cd ~
 ❯ git config --global user.name "AQUI VA TU NOMBRE"
 ❯ git config --global user.email AQUI_VA_TU_EMAIL@WHATEVER.COM
 ❯ git config --global core.editor AQUI_VA_TU_EDITOR
+❯ git config --global init.defaultBranch main
 ```
 
 Ahora podeis comprobar como ha quedado configurado ejecutando
