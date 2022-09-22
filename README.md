@@ -197,7 +197,7 @@ Consultamos el estado (`status`) del repositorio
 
 ```sh
 ❯ git status
-On branch master
+On branch main
 
 No commits yet
 
@@ -219,7 +219,7 @@ Consultamos el estado (`status`) para ver qué ha cambiado y comprobamos que, ef
 
 ```sh
 ❯ git status
-On branch master
+On branch main
 
 No commits yet
 
@@ -234,7 +234,7 @@ Salvamos (`commit`) nuestra primera versión con un mensaje
 
 ```sh
 ❯ git commit -m "Initial commit"
-[master (root-commit) 3838d0e] Initial commit
+[main (root-commit) 3838d0e] Initial commit
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 README.md
 ```
@@ -243,7 +243,7 @@ Volvemos a comprobar el estado (`status`) del repositorio y vemos que no hay nad
 
 ```sh
 ❯ git status
-On branch master
+On branch main
 nothing to commit, working tree clean
 ```
 
@@ -284,7 +284,7 @@ Volvemos a comprobar el estado (`status`) del repositorio y vemos que nos dice q
 
 ```sh
 ❯ git status
-On branch master
+On branch main
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
@@ -311,7 +311,7 @@ Volvemos a comprobar el estado (`status`) del repositorio y vemos que ahora sí 
 
 ```sh
 ❯ git status
-On branch master
+On branch main
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
@@ -322,7 +322,7 @@ Salvamos (`commit`) nuestra segunda versión con un mensaje
 
 ```sh
 ❯ git commit -m "Add title to README"
-[master 6678c20] Add title to README
+[main 6678c20] Add title to README
  1 file changed, 1 insertion(+)
 ```
 
@@ -330,7 +330,7 @@ Volvemos a comprobar el estado (`status`) del repositorio y vemos que no hay nad
 
 ```sh
 ❯ git status
-On branch master
+On branch main
 nothing to commit, working tree clean
 ```
 
@@ -430,8 +430,8 @@ Ahora podemos acceder localmente al repositorio y consultar lo que queramos
 ❯ cd dotfiles-example/
 
 ❯ git status
-On branch master
-Your branch is up to date with 'origin/master'.
+On branch main
+Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
 
