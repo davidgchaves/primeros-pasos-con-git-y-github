@@ -108,7 +108,7 @@ Generamos un par de claves desde el directorio home (`~`)
 
 ```sh
 ❯ cd ~
-❯ ssh-keygen -t rsa -b 4096 -C "EMAIL_USADO_EN_REGISTRO_DE_GITHUB"
+❯ ssh-keygen -t ed25519 -C "EMAIL_USADO_EN_REGISTRO_DE_GITHUB"
 ```
 
 Iniciamos el agente SSH
@@ -120,14 +120,14 @@ Iniciamos el agente SSH
 Agregamos la **clave privada SSH** al `ssh-agent`
 
 ```sh
-❯ ssh-add ~/.ssh/id_rsa
+❯ ssh-add ~/.ssh/id_ed25519
 ```
 
 Instalamos y usamos `xclip` para copiar al portapapeles la **clave pública SSH**
 
 ```sh
 ❯ sudo apt install xclip
-❯ xclip -sel clip < ~/.ssh/id_rsa.pub
+❯ xclip -sel clip < ~/.ssh/id_ed25519.pub
 ```
 
 A partir de aquí, seguir los pasos de [Agregar una clave SSH nueva a tu cuenta de GitHub](https://docs.github.com/es/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) **desde el punto 2** en adelante.
@@ -368,7 +368,7 @@ Ahora sí que podemos enviar a Github.
 
 ```
 ❯ git push -u origin main
-Enter passphrase for key '/Users/davidgchaves/.ssh/id_rsa':
+Enter passphrase for key '/Users/davidgchaves/.ssh/id_ed25519':
 Enumerating objects: 6, done.
 Counting objects: 100% (6/6), done.
 Delta compression using up to 4 threads
@@ -417,7 +417,7 @@ para finalmente proceder al clonado
 ```
 ❯ git clone git@github.com:davidgchaves/dotfiles-example.git
 Cloning into 'dotfiles-example'...
-Enter passphrase for key '/Users/davidgchaves/.ssh/id_rsa':
+Enter passphrase for key '/Users/davidgchaves/.ssh/id_ed25519':
 remote: Enumerating objects: 15, done.
 remote: Total 15 (delta 0), reused 0 (delta 0), pack-reused 15
 Receiving objects: 100% (15/15), done.
