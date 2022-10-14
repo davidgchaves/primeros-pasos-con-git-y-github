@@ -111,11 +111,15 @@ Generamos un par de claves desde el directorio home (`~`)
 ❯ ssh-keygen -t ed25519 -C "EMAIL_USADO_EN_REGISTRO_DE_GITHUB"
 ```
 
-Iniciamos el agente SSH
+Iniciamos el agente SSH (**ToDo mellorar isto**) tenemos que volver a bash)
 
 ```sh
-❯ eval "$(ssh-agent -s)"
+❯ bash
+$ eval "$(ssh-agent -s)"
+$ fish
 ```
+
+o alternativamente (**ToDo**: consultar [ssh config github](https://gist.github.com/rbialek/1012262))
 
 Agregamos la **clave privada SSH** al `ssh-agent`
 
